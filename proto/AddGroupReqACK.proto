@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message AddGroupReqACK {
+    int32 result = 0; // 已送达服务器
+}

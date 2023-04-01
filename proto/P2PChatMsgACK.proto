@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message P2PChatMsgACK {
+    int32 msgStatus = 1; // 0 = 已发送 1 = 已送达
+    string reason = 2; // 原因
+}

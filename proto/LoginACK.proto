@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message LoginACK {
+    message UserInfo {
+        int32 uid = 1;
+        string name = 2;
+        string status = 3;
+    };
+
+    int32 LoginResult = 1; // 0: success, 1 error
+    string reason = 2; // only LoginResult != 0
+    repeated string offlineMsgs = 3; // 离线消息
+    repeated UserInfo friendLists = 4; // 好友列表
+    // todo
+    // 群聊列表
+}

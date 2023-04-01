@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message P2PChatMsg {
+    int32 fromID = 1;
+    int32 toID = 2;
+    string msg = 3;
+}

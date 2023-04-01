@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CreateGroupACK {
+    int32 groupId = 1; // 创建成功返回群号, 失败返回-1
+}

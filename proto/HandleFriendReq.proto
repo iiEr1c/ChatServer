@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message HandleFriendReq {
+    int32 fromId = 1;
+    int32 toId = 2;
+    string addition = 3;
+}

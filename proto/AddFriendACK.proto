@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message AddFriendACK {
+    int32 fromId = 1;
+    int32 toId = 2;
+    int32 AddFriendResult = 3; // 0=success 1=failure
+    string reason = 4; // if AddFriendResult != 0
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CreateGroup {
+    int32 creator = 1; // 创建者
+    string groupName = 2;
+    string groupDesc = 3;
+}

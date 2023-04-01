@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message RegisterACK {
+    int32 regResult = 1; // 0: success, 1 error
+    string reason = 2;
+}

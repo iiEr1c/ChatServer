@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message LogoutACK {
+    int32 LogoutResult = 1; // 0: success, 1 error
+    string reason = 2; // only LogoutResult != 0
+}

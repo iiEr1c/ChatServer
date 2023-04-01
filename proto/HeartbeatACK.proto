@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message HeartbeatACK {
+    int32 random = 1;
+}

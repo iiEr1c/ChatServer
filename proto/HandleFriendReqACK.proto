@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message HandleFriendReqACK {
+    int32 fromId = 1;
+    int32 toId = 2;
+    int32 isAgreed = 3;
+    string reason = 4;
+}

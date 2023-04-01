@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AddGroupReq {
+    int32 applicant = 1;
+    string addition = 2; // 理由
+}
